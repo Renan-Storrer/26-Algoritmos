@@ -10,9 +10,11 @@ def period_permanece(start, end):
 
     return True
 
+
 def study_schedule(permanence_period, target_time):
+
     count = 0
-    
+
     if target_time is None:
         return None
 
